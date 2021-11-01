@@ -1,0 +1,39 @@
+#StoreDetails {
+    min-height: 400px;
+    margin-top: 20px;
+}
+
+#storeForm {
+    border: 2px solid black;
+    padding: 25px 50px;
+}
+
+#storeForm div {
+    display: flex;
+    flex-direction: column;
+}
+
+#storeForm .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#storeForm label {
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#storeForm input {
+    height: 26px;
+    padding: 3px 10px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+#storeForm ::placeholder {
+    color: grey;
+}

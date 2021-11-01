@@ -1,0 +1,16 @@
+#ProductDetails {
+    min-height: 200px;
+    margin-top: 10px;
+    height: auto;
+}
+
+Table {
+    border: 2px solid black;
+    width: 100%;
+    padding: 10px 5%;
+    font-size: 18px;
+}
+
+Table tbody tr {
+    height: 36px;
+}

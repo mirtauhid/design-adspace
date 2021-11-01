@@ -1,0 +1,37 @@
+.box {
+    border: 1px solid transparent;
+}
+
+.box:hover {
+    border: 1px solid blue;
+    transition: 0.2s;
+}
+
+.boxChild {
+    text-align: center;
+}
+
+.boxChild h3 {
+    cursor: auto;
+    padding: 3px 0px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.boxChild input {
+    width: 32%;
+    height: 24px;
+    text-align: center;
+    color: black;
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+.boxChild input:focus {
+    border: 1px solid blue;
+}
+
+::placeholder {
+    color: black;
+    font-size: 16px;
+}
